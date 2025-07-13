@@ -1,0 +1,104 @@
+<app-header></app-header>
+
+<section class="mat-elevation-z2" style="padding: 4rem 1rem; text-align: center;">
+  <img src="assets/logo.jpg" alt="" style="width: 250px; border-radius: 10%;">
+  <div class="container" style="max-width: 64rem; margin: 0 auto;">
+    <h1 class="mat-display-1">
+      <span style="color: green"><strong>Merdivenaltı Dergisi</strong></span>'ne Hoş Geldiniz
+    </h1>
+    <p class="mat-body-1" style="max-width: 40rem; margin: 1rem auto 2rem;">
+      Çağdaş edebiyat, şiir ve sinemanın en iyilerini keşfedin.
+      Okurlar, yazarlar ve sinema tutkunlarından oluşan topluluğumuza katılın.
+    </p>
+
+    <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 1rem;">
+      <button mat-stroked-button style="color: green">
+        <mat-icon>auto_stories</mat-icon>
+        &nbsp; Son Sayıyı Oku
+      </button>
+
+      <button mat-stroked-button style="color: green">
+        <mat-icon>edit</mat-icon>
+        &nbsp; Dergiye Katkıda Bulun
+      </button>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="container" style="max-width: 64rem; margin: 0 auto; text-align: center;">
+    <h2>Dergide Sizi Neler Bekliyor?</h2>
+    <p class="mat-body-1" style="max-width: 40rem; margin: 0.5rem auto 3rem;">
+      Çeşitli edebi içerik koleksiyonumuzu ve topluluk özelliklerimizi keşfedin
+    </p>
+
+    <div style="display: grid; gap: 1.5rem; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));">
+      <mat-card class="mat-elevation-z3" style="padding: 2rem;">
+          <div style="margin: auto;">
+              <mat-icon color="primary" style="transform: scale(1.25);">auto_stories</mat-icon>
+          </div>
+          <div>
+              <h3 class="mat-title" style="margin-bottom: 0.25rem;">Dijital Dergi</h3>
+              <p class="mat-body-2" style="color: rgba(0, 0, 0, 0.6);">
+              Sayfa çevirme animasyonlarıyla akıcı etkileşimli PDF okuyucu.
+              </p>
+          </div>
+          <mat-card-actions>
+              <button mat-stroked-button style="color: green; width: 100%; justify-content: center;">
+              Dergileri Keşfet
+              <mat-icon>arrow_forward</mat-icon>
+              </button>
+          </mat-card-actions>
+      </mat-card>
+
+      <mat-card class="mat-elevation-z3" style="padding: 2rem;">
+          <div style="margin: auto;">
+              <mat-icon color="primary" style="transform: scale(1.25);">edit</mat-icon>
+          </div>
+          <div>
+              <h3 class="mat-title" style="margin-bottom: 0.25rem;">Şiir Önerileri</h3>
+              <p class="mat-body-2" style="color: rgba(0, 0, 0, 0.6);">
+              Şiirinizi topluluğumuzla paylaşın ve yayınlatın
+              </p>
+          </div>
+          <mat-card-actions>
+              <button mat-stroked-button style="color: green; width: 100%; justify-content: center;">
+              Şiir Gönder
+              <mat-icon>arrow_forward</mat-icon>
+              </button>
+          </mat-card-actions>
+      </mat-card>
+
+      <mat-card class="mat-elevation-z3" style="padding: 2rem;">
+          <div style="margin: auto;">
+              <mat-icon color="primary" style="transform: scale(1.25);">edit</mat-icon>
+          </div>
+          <div>
+              <h3 class="mat-title" style="margin-bottom: 0.25rem;">Sinema İncelemeleri</h3>
+              <p class="mat-body-2" style="color: rgba(0, 0, 0, 0.6);">
+              Sinemaseverler için düşündüren incelemeler ve öneriler
+              </p>
+          </div>
+          <mat-card-actions>
+              <button mat-stroked-button style="color: green; width: 100%; justify-content: center;">
+              İncelemeleri Oku
+              <mat-icon>arrow_forward</mat-icon>
+              </button>
+          </mat-card-actions>
+      </mat-card>
+    </div>
+  </div>
+</section>
+
+<!-- Featured Quote -->
+<section style="background-color: var(--mat-background-secondary); padding: 4rem 0; text-align: center;">
+  <div class="container" style="max-width: 48rem; margin: 0 auto;">
+    <mat-icon color="primary" style="font-size: 48px; width: 48px; height: 48px;" fontSet="material-symbols-outlined">format_quote</mat-icon>
+    <blockquote style="font-style: italic; font-size: 1.5rem; margin-bottom: 1.5rem;">
+      "Aşkla, sevgiyle ve güzellikle."
+    </blockquote>
+    <cite style="font-size: 1rem; ">— Yahya Kemal Beyatlı</cite>
+  </div>
+</section>
+
+<app-footer></app-footer>

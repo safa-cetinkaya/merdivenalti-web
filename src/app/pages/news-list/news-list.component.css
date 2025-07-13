@@ -1,0 +1,35 @@
+.small-info-box {
+  padding: 0.25rem 0.5rem;
+  border-radius: 9999px;
+  font-size: 0.75rem;
+  font-weight: 500;
+  max-width: fit-content;
+}
+
+.small-info-box.blue {
+  background-color: #bfdbfe;
+  color: #1e40af;
+}
+
+.small-info-box.orange {
+  background-color: #fed7aa;
+  color: #7c2d12;
+}
+
+.small-info-box.green {
+  background-color: #bbf7d0;
+  color: #14532d;
+}
+
+.small-info-box.red {
+  background-color: #fecaca;
+  color: #991b1b;
+}
+
+mat-card {
+  transition: box-shadow 0.3s ease;
+}
+
+mat-card:hover {
+  box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.2); /* Daha büyük gölge */
+}
