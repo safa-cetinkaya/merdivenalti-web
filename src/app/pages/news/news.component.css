@@ -25,11 +25,3 @@
   background-color: #fecaca;
   color: #991b1b;
 }
-
-mat-card {
-  transition: box-shadow 0.3s ease;
-}
-
-mat-card:hover {
-  box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.2);
-}

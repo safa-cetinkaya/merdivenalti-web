@@ -1,0 +1,26 @@
+<app-header></app-header>
+<div style="width: 100%; display: flex; align-items: center; flex-direction: column;">
+    <img [src]="news.photo" alt="" style="width: 40%; border-radius: 12px; margin-top: 2rem; margin-bottom: 6px;">
+    <div style="width: 40%;">
+      <div style="display: flex; justify-content: space-between;">
+        <span class="small-info-box" [ngClass]="getNewsColor(news.type)">
+          {{ getNewsType(news.type) }}
+        </span>
+        <span *ngIf="news.featured === true" class="small-info-box green">
+          Öne Çıkan
+        </span>
+    </div>
+</div>
+
+<div style="width: 100%; display: flex; justify-content: center;">
+    <div style="width: 70%">
+        <div style="text-align: center; margin-top: 2rem; margin-bottom: 2rem;">
+            <h2>{{ news.title }}</h2>
+            <p style="color: gray; margin-bottom: 36px;">{{ news.description }}</p>
+            <p style="text-align: justify;">{{ news.content }}</p>
+        </div>
+    </div>
+</div>
+<div style="width: 100%;">
+    <app-footer></app-footer>
+</div>
